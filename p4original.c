@@ -4,10 +4,10 @@ int cmp(int a,int b,int c)
   int l;
   if((a>b)&&(a>c))
   printf("A is big\n");
-  else if((b>a)&&(b>c))
-  printf(" B is big\n");
-   else if((c>a)&&(c>b))
-  printf("C is big\n");
+else if((b>a)&&(b>c))
+printf("B is big\n");
+else if((c>a)&&(c>b))
+printf("c is big\n");
 }
 int input()
 {
@@ -18,7 +18,7 @@ int input()
 }
 void output(int l)
 {
-  printf("big number is : %d\n",l);
+  printf("big number is :%d\n",l);
 }
 int main()
 {
@@ -30,3 +30,9 @@ int main()
   output(l);
   return 0;
 }
+
+
+
+
+
+
